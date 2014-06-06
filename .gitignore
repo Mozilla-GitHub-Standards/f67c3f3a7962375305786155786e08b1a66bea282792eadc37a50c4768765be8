@@ -1,0 +1,7 @@
+*.un~
+bin
+include
+lib
+*.pyc
+omxen.egg-info
+.Python
