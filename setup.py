@@ -4,7 +4,7 @@
 import os
 from setuptools import setup, find_packages
 
-requires = ['bottle']
+requires = ['bottle', 'gevent']
 
 
 setup(name='omxen',
