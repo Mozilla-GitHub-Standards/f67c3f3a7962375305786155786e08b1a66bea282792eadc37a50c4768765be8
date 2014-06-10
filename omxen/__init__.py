@@ -36,7 +36,7 @@ def receive():
         from_, text = _SMS[to].get()
         res.append({'from': from_, 'text': text})
 
-    yield res
+    yield json.dumps(res)
 
 
 def main():
