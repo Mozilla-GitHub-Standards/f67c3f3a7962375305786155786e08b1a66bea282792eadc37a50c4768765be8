@@ -22,4 +22,7 @@ clean:
 	rm -rf $(BUILD_DIRS)
 
 test:
-	$(BIN)/python setup.py test
+	$(PYTHON) setup.py test
+
+runserver:
+	$(BIN)/omxen

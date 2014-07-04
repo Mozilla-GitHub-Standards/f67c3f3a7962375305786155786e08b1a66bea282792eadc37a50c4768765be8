@@ -32,7 +32,7 @@ def receive():
     to = request.query['to']
     res = []
 
-    while not _SMS[to].empty():
+    if not _SMS[to].empty():
         from_, text = _SMS[to].get()
         res.append({'from': from_, 'text': text})
 
